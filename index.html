@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <title>初中纪念馆 - CNZW</title>
+    <link rel="icon" sizes="any" mask href="/favicon.png">
+    <link rel="stylesheet" type="text/css" href="/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
+    <link rel="stylesheet" type="text/css" href="/css/icp.css">
+    <!--audio id="bgm" src="https://cdn.jsdelivr.net/gh/CNZW-WTW/audio/青春档案.mp3" onload autoplay loop></audio-->
+</head>
+<!--bgm-->
+<script>
+    var bgm = document.getElementById('bgm');
+</script>
+<!---->
+<script>
+    function getURL(name) {
+        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+            results = regex.exec(location.search);
+        return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    }
+</script>
+<style>
+    body {
+        user-select: none;
+    }
+</style>
+
+<body onclick="bgm.play()">
+    <!--未启用或不支持JavaScript时显示页面-->
+    <noscript class="noscript">
+        <h2 class="noscript">
+            你的浏览器不支持或未启用JavaScript
+            <br>
+            请启用JavaScript后重新加载页面
+            <div class="noscript-link">
+                Powered&nbsp;by
+                <a href="https://github.com/CNZW-WTW" target="_blank">
+                    <img src="https://avatars.githubusercontent.com/CNZW-WTW" class="noscript-avatar">
+                    <span class="MC">
+                        CNZW-WTW
+                    </span>
+                </a>
+            </div>
+            <span class="copyright">
+                <strong>
+                    Copyright&copy;&nbsp;by
+                    <a href="https://github.com/CNZW-WTW" target="_blank" class="MC">
+                        CNZW
+                    </a>
+                    . All Right Reserved
+                </strong>
+            </span>
+        </h2>
+        <style>
+            .noscript {
+                user-select: none;
+                position: fixed;
+                text-align: center;
+                z-index: 100;
+                background-color: rgb(50, 50, 50);
+                color: white;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+            }
+
+            .noscript a {
+                text-decoration: none;
+                color: white;
+            }
+
+            .noscript-link {
+                margin-top: 100px;
+            }
+
+            .noscript-avatar {
+                background-color: black;
+                width: 20px;
+                border-radius: 50%;
+                margin-bottom: -2px;
+
+            }
+
+            .copyright {
+                font-size: 15px;
+            }
+
+            .MC {
+                font-family: 'MC';
+            }
+        </style>
+    </noscript>
+    <!--body-->
+    <div class="body">
+        <div class="top center">
+            <h1>我们的过往</h1>
+            <details>
+                <summary>查看更多相关信息</summary>
+                <a href="/pictures">1. 班级相册</a>
+                <a href="/"></a>
+            </details>
+            <style>
+                .top {
+                    background-color: rgba(255, 255, 255, 0.8);
+                    margin-top: 5px;
+                    margin-left: 10%;
+                    margin-right: 10%;
+                    border-radius: 5px;
+                }
+                .top details{
+                    text-align: left;
+                    margin-left: 50px;
+                }
+                .top details{
+                    font-size: 20px;
+                }
+                .top details a{
+                    margin-left: 30px;
+                    color: black;
+                }
+            </style>
+        </div>
+        <style>
+            .body{
+                margin-bottom: 50px;
+            }
+        </style>
+    </div>
+    <!---->
+    <div class="dft center">
+        <br>
+        <h3>本站点支持IPv6地址</h3>
+        <h3>所有代码均由&nbsp;<a href="https://github.com/CNZW-WTW">GitHub@CNZW-WTW</a>&nbsp;维护</h3>
+        <h3>本站点由&nbsp;<a href="https://www.cloudflare.com/" target="_blank">Cloudflare</a>&nbsp;提供保护和域名解析服务</h3>
+        <h3>本站点由&nbsp;<a href="https://www.jsdelivr.com/" target="_blank">jsDelivr</a>&nbsp;提供CDN加速服务</h3>
+        <br>
+        <style>
+            .dft {
+                background-color: rgba(255, 255, 255, 0.8);
+                margin-top: 10px;
+                margin-left: 10%;
+                margin-right: 10%;
+                border-radius: 5px;
+            }
+
+            .dft h3 a {
+                color: black;
+            }
+        </style>
+    </div>
+    <!--footer-->
+    <footer id="footer">
+        <hr color="black" size="3" />
+        <!--LICENSE-->
+        <div class="LICENSE center">
+            <span>
+                本站全部内容禁止商业使用。文本内容除另有声明外，均在
+                <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/" target="_blank">
+                    知识共享 署名-非商业性使用-相同方式共享 3.0 中国大陆（CC BY-NC-SA 3.0 CN）许可协议
+                </a>
+                下提供，附加条款亦可应用
+            </span>
+            <style>
+                .LICENSE {
+                    background-color: white;
+                    border-radius: 3px;
+                    margin-bottom: 5px;
+                    margin-left: 2%;
+                    margin-right: 2%;
+                }
+
+                .LICENSE span a {
+                    text-decoration: none;
+                    color: blue;
+                }
+            </style>
+        </div>
+        <!--LINK-->
+        <a href="https://github.com/CNZW-WTW/" target="_blank" title="GitHub:@CNZW-WTW">
+            <img src="https://img.shields.io/badge/GitHub-CNZW--WTW-black" alt="GitHub:@CNZW-WTW">
+        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://space.bilibili.com/3493132140284888/" target="_blank" title="Bilibili:@CNZW">
+            <img src="https://img.shields.io/badge/Bilibili-CNZW-blue" alt="Bilibili:@CNZW">
+        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://x.com/CNZW_WTW" target="_blank" title="X:@CNZW_WTW">
+            <img src="https://img.shields.io/badge/X-CNZW__WTW-black" alt="X:@CNZW_WTW">
+        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://youtube.com/@CNZW-WTW" target="_blank" title="YouTube:@CNZW-WTW">
+            <img src="https://img.shields.io/badge/YouTube-CNZW--WTW-red" alt="YouTube:@CNZW-WTW">
+        </a>
+        <br>
+        <b id="copyright">
+            <strong>
+                Copyright&copy;&nbsp;2023-
+                <b id="Y">
+                    114514
+                </b>
+                &nbsp;CNZW. All Right Reserved
+            </strong>
+        </b>
+        <br>
+        <div id="icp-moe" class="icp" style="display: none;">
+            <img src="https://moe.one/view/img/ico64.png" id="icp-moe-icon" class="icp">
+            <a href="https://icp.gov.moe/?keyword=20245204" target="_blank" id="icp-moe-link" class="icp">
+                <span id="icp-moe-code" class="icp">萌ICP备20245204号</span>
+            </a>
+        </div>
+        <hr color="black" size="3" />
+        <script>
+            var currentYear = new Date().getFullYear();
+            document.getElementById("Y").innerHTML = currentYear;
+        </script>
+    </footer>
+</body>
+
+</html>
